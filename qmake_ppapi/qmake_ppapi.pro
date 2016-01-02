@@ -1,4 +1,6 @@
 TEMPLATE = app
+TARGET = qmake_ppapi
+
 DEPENDPATH += .
 
 # Input

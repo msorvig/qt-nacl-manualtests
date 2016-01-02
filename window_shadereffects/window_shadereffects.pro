@@ -1,4 +1,5 @@
 TEMPLATE = app
+TARGET = window_shadereffects
 
 QT += quick qml
 SOURCES += main.cpp

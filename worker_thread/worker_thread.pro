@@ -1,5 +1,6 @@
 TEMPLATE = app
-TARGET = main
+TARGET = worker_thread
+
 DEPENDPATH += .
 
 # Input

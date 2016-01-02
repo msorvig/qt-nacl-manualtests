@@ -1,5 +1,6 @@
 TEMPLATE = app
-TARGET = main
+TARGET = qtcore_network
+
 DEPENDPATH += .
 
 # Input

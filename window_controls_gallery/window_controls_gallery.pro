@@ -1,6 +1,8 @@
+TEMPLATE = app
+TARGET = window_gallery
+
 QT += qml quick
-TARGET = gallery
-!android: !ios: !blackberry: qtHaveModule(widgets): QT += widgets
+qtHaveModule(widgets): QT += widgets
 
 include(src/src.pri)
 include(shared.pri)

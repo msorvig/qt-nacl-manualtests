@@ -1,5 +1,6 @@
 TEMPLATE = lib
 TARGET = ../lib
+
 DEPENDPATH += .
 
 # Input

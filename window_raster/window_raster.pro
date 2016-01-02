@@ -1,5 +1,6 @@
 TEMPLATE = app
-TARGET = rasterwindow
+TARGET = window_raster
+
 DEPENDPATH += .
 
 # Input

@@ -1,5 +1,6 @@
 TEMPLATE = app
 TARGET = opengl_functions
+
 DEPENDPATH += .
 
 SOURCES += main.cpp

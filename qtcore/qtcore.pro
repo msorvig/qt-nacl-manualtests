@@ -1,5 +1,6 @@
 TEMPLATE = app
-TARGET = hello_world_qtcore
+TARGET = qtcore
+
 DEPENDPATH += .
 
 # Input
