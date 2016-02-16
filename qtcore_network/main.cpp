@@ -31,8 +31,9 @@ private slots:
         qDebug() << "NetworkAccessTester callback" << QThread::currentThread();
         QThread::msleep(500);
         networkAccessManager = new QNetworkAccessManager();
-        // send GET request which should show up in the server access log if successful
+        // send GET requests which should show up in the server access log if successful
         networkAccessManager->get(QNetworkRequest(QUrl("localfile.txt")));
+        networkAccessManager->get(QNetworkRequest(QUrl("/localfile.txt")));
     }
 };
 
